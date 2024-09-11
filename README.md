@@ -32,3 +32,6 @@ kubectl create secret generic mds-token \
 ```bash
 kubectl create -n confluent secret generic oauth-jass --from-file=oauth.txt=secrets/oauth_jaas.txt
 ```
+
+### deploy confluent platform
+kubectl apply -f cp-platform.yml
