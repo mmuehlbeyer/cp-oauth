@@ -1,4 +1,8 @@
-# cp-oauth
+# README
+
+short demo for configuring oauth with Confluent Platform 7.7
+
+Zookeeper and Kafka Broker only at the moment
 
 ### create secrets
 
