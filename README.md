@@ -38,4 +38,6 @@ kubectl create -n confluent secret generic oauth-jass --from-file=oauth.txt=secr
 ```
 
 ### deploy confluent platform
+```bash
 kubectl apply -f cp-platform.yml
+```
